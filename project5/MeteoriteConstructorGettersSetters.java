@@ -41,7 +41,7 @@ public class MeteoriteConstructorGettersSetters {
     @Test
     public void getID() {
         Meteorite m = new Meteorite("Name", 1);
-        assertEquals(1, m.getID());
+        assertEquals(1, m.getId());
     }
 
     @Test(expected = IllegalArgumentException.class)
